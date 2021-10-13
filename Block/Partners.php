@@ -7,8 +7,6 @@
 namespace Magento\Marketplace\Block;
 
 /**
- * Partners section block.
- *
  * @api
  * @since 100.0.2
  */
@@ -41,7 +39,7 @@ class Partners extends \Magento\Backend\Block\Template
     /**
      * Gets partners
      *
-     * @return array
+     * @return bool|string
      */
     public function getPartners()
     {
